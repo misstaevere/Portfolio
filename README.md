@@ -12,7 +12,10 @@ class which will determine whether or not the question has been "done".
 
 You will need to:
 - Fork this repository to your own repository list on github.
-- Clone that repository using ssh to your local PC.
+- On your desktop open up a git bash terminal
+- Clone your repository using ssh to your local PC.
+- cd into the cloned repository
+- Run `git remove -v` and it should come up with your remote repository
 - Inside the each task, fill in the Question class with your answers
 - Test that your solution works by running the test file
 - Once the tests pass, commit your work and push it to your github 
