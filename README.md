@@ -15,10 +15,25 @@ You will need to:
 - On your desktop open up a git bash terminal
 - Clone your repository using ssh to your local PC.
 - cd into the cloned repository
-- Run `git remove -v` and it should come up with your remote repository
+- Run `git remote -v` and it should come up with your remote repository
 - Inside the each task, fill in the Question class with your answers
 - Test that your solution works by running the test file
 - Once the tests pass, commit your work and push it to your github 
 repository using the feature-branch model
+
+Over time additional questions will appear.
+You will need to add this repository using:
+
+`git remote add questions 
+git@github.com:christophperrins/Portfolio.git`
+
+In your **master** branch you can pull down and merge the new 
+changes by running:
+
+`git pull questions master`
+
+With the new question(s) in your master, create a new branch to code for 
+that question. Once finished with the question and tested that it is 
+working, merge it into your master branch.
 
 
