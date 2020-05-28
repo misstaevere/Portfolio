@@ -30,10 +30,8 @@ git@github.com:christophperrins/Portfolio.git`
 In your **master** branch you can pull down and merge the new 
 changes by running:
 
-`git pull questions master`
+`git rebase questions/master`
 
 With the new question(s) in your master, create a new branch to code for 
 that question. Once finished with the question and tested that it is 
 working, merge it into your master branch.
-
-
