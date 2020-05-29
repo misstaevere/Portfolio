@@ -3,11 +3,12 @@ package com.qa.portfolio;
 /**
  * THIS ONE HAS BEEN DONE FOR YOU
  * 
- * To test the solution open up the ExampleTest class in src/test/java/com/qa/portfolio and run
+ * To test the solution open up the ExampleTest class in
+ * src/test/java/com/qa/portfolio and run
  * 
  */
 public class Example {
-	
+
 	/**
 	 * Given a name, returns "Hi" plus the name <br>
 	 * 
@@ -17,4 +18,5 @@ public class Example {
 	public String greetingExample(String name) {
 		return "Hi " + name;
 	}
+
 }
